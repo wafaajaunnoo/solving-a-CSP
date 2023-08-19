@@ -27,11 +27,7 @@ _insert problem formulation_
 A logical way to present a CSP problem is by its constraints and an objective function.
 
 ### 2.2.1 Constraints
-1. Each city can only be visited once.
-2. The salesman should arrive at each city within the specified time window.
-3. The salesman must minimize both the total distance travelled and the time window violations.
-4. The pheromone levels are dynamically updated.
-5. The salesperson must return to the initial city after visiting all cities.
+asdfghjkl
    
 ### 2.2.2 Objectives
 asdfghjkl
@@ -45,11 +41,10 @@ asdfghjkl write something:
 2. Backtracking
 3. Forward Checking
 
-While all of these methods provide optimal solutions to TSP, they are rarely useful beyond the boundaries of theoretical Computer Science.  Therefore, academics came up with Evolutionary Optimization Algorithms. <sup><sub>[[6]](https://www.sciencedirect.com/science/article/pii/S089812211101073X).</sub></sup>
 
 ### 2.3.1 fgh Algorithms
 Finding an algorithm that reduces computation is necessary to solve the XYZ.  
 
-[Read about the algorithmic design for this CSP.]()
+[Read about the algorithmic design for this CSP.](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/algorithm.md)
 
 

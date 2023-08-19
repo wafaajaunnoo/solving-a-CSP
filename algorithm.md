@@ -36,7 +36,7 @@ if any?
 
 
 ### 3.2.6 In detail:
-In detail, the steps of the algorithm are defined as shown below.  Alternatively, you can view a breakdown of the codes [here]().
+In detail, the steps of the algorithm are defined as shown below.  Alternatively, you can view a breakdown of the codes [here](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/code-breakdown.md).
 
 **Step 1: Import libraries.**
 
@@ -47,6 +47,6 @@ In detail, the steps of the algorithm are defined as shown below.  Alternatively
 ## 3.3 Potential Improvements
 
 
-[Read about the Performance Comparison.]()
+[Read about the Performance Comparison.](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/performance-%20comparison.md)
 
 
