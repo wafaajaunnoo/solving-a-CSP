@@ -6,21 +6,10 @@
 3. Knowledge representation (provide detailed information about the problem and define all possible techniques).
 4. Problem-solving (selection of best technique(s)).
 -->
-I start this section by defining a _problemName_.  I follow with the simplification of the different levels of the complexity, which I define as the *constraints* and *objectives*.  Later, I argue the rationale behind my choice to solve the _problemName_ with the _algorithmName_ [hereafter: ASDF].
+I start this section by defining a _problemName_.  I follow with the simplification of the different levels of complexity, which I define as the *constraints* and *objectives*.  Later, I argue the rationale behind my choice to solve the _problemName_ with the _algorithmName_ [hereafter: ASDF].
 
-## 2.1 The Travelling Salesman Problem
-* Brief overview of the problem
- 
-
-### Context:
-In particular, I outline a scenario to show the implementation of XYZ in the real world.
-
-_insert problem scenario_
-
-### TSP Formulation
-For simplicity, I formulate the following ABC:
-
-_insert problem formulation_
+## 2.1 The Logic-Based Sudoku Puzzle
+A common logic-based problem called Sudoku calls for the placement of numbers in a 9x9 grid so that each column, each row, and each of the nine 3x3 sub-grids has all digits from 1 to 9.  The Sudoku can have several layers of complexity, as more constraints are added to the puzzle.
 
 ## 2.2 Problem Complexity
 
