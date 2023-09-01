@@ -49,7 +49,7 @@ The main constraint is that for an order 'm' quasigroup, the result of the opera
 2. Similar to _QEP 1_ and _QEP 2_, the quasigroup must abide by the basic characteristics of a Latin square (a quasigroup of order 'm'), which requires that each element appear precisely once in each row and column.
 3. Reduce conflicts that result from multiplicative operations inside the quasigroup while still adhering to the main algebraic restriction.
 
-## 2.3 Problem-solving
+## 2.2 Problem-solving
 Using algorithms that reduce computation is necessary when solving any problem.  For this assignment, the QEPs are solved using algorithms that diversify on their levels of complexity, based on the levels of complexity of the QEPs.
 
 In this assignment, I will solve _QEP 1_, _QEP2_, and _QEP 3_ with the following algorithms respectively:
@@ -58,7 +58,7 @@ In this assignment, I will solve _QEP 1_, _QEP2_, and _QEP 3_ with the following
 3. Donald Knuth's Dancing Links algorithm with Algorithm X
 
 
-### 2.3.1 Rationale of Algorithms
+### 2.2.1 Rationale of Algorithms
 1. **_QEP 1_**: The level of complexity in this QEP only requires basic constraint fulfilment and not complicated algebraic operations.  By methodically investigating and filling in the quasigroup while making sure the given constraints are satisfied, the Backtracking algorithm, as proposed, seeks to discover a viable solution that satisfies these goals. The goal is to finish the full quasigroup and find out if there is a quasigroup with the specified order 'm' that satisfies the requirements.
 2. **_QEP 2_**: This problem adds more limitations, but propagates them in a very simple way.  A more effective way to rule out possibilities is through forward checking.  This algorithm aids in effectively ruling out options while guaranteeing that the specified constraints are met.  It lowers the search space and propagates constraints forward to rapidly spot any inconsistencies.
 3. **_QEP 3_**: _QEP 3_ is more complex than _QEP 1_ and _QEP 2_ because non-trivial algebraic procedures are involved. The Dancing Links method may be modified to effectively handle these algebraic limitations and is particularly helpful for addressing exact cover issues.
