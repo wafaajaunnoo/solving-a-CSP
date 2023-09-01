@@ -13,22 +13,22 @@ I start this section by defining a Quasigroup Existence Problem [hereafter: QEP]
 3. Donald Knuth's Dancing Links algorithm with Algorithm X
 
 ## 2.1 Quasigroup Existence Problem
-A Latin square of dimension m is an order m quasigroup. This is a multiplication table using the notation $m \times m$ where each element appears exactly once in each row and column. A set and a binary multiplication operator $ \times $ defined over this set can both be used to specify a quasigroup. The existence or non-existence of quasigroups with extra attributes and a specific size is determined by quasigroup existence issues. Given we have 2 relations, \*321 and \*312 by $a \*321 b = c$ iff $c\*b=a$ and $a \*312 b = c$ iff $b\*c=a$, we can formulate 3 QEP with different levels of complexities:
+A Latin square of dimension $m$ is an order $m$ quasigroup. This is a multiplication table using the notation $m \times m$ where each element appears exactly once in each row and column. A set and a binary multiplication operator $ \times $ defined over this set can both be used to specify a quasigroup. The existence or non-existence of quasigroups with extra attributes and a specific size is determined by quasigroup existence issues. Given we have 2 relations, \*321 and \*312 by $a \*321 b = c$ iff $c\*b=a$ and $a \*312 b = c$ iff $b\*c=a$, we can formulate 3 QEP with different levels of complexities:
 
 ### 2.1.1 QEP 1
-At this stage, the problem is of order m quasigroups for which if $a*b=c$, $a*b=c*d$ and $a *321 b = c *321 d$ then $a=c$ and $b=d$.
+At this stage, the problem is of order $m$ quasigroups for which if $a*b=c$, $a*b=c*d$ and $a *321 b = c *321 d$ then $a=c$ and $b=d$.
 
 #### 2.1.1.1 Constraints
-1. Each element must appear precisely once in each row and column in order for the quasigroup to conform to the basic features of a Latin square (a quasigroup of order 'm').
+1. Each element must appear precisely once in each row and column in order for the quasigroup to conform to the basic features of a Latin square (a quasigroup of order '$m$').
 2. $a * b = c$ <!--The result of the multiplication operation between any two elements 'a' and 'b' should equal 'c'-->
 3. $a * b = c * d$ <!--If 'a * b' equals 'c', then 'a * b' must also equal 'c * d'.-->
 4. $a * 321 b = c * 321 d$ <!--If 'a * 321 b' equals 'c', then 'a * 321 b' must also equal 'c * 321 d'.-->
    
 #### 2.1.1.1 Objectives
-The main goal of the QG1 issue is to identify an order 'm' quasigroup that complies with the aforementioned restrictions. The general objective is to produce a quasigroup with components occurring precisely once in each row and column and a multiplication operation that meets the requirements.
+The main goal of the QG1 issue is to identify an order $m$ quasigroup that complies with the aforementioned restrictions. The general objective is to produce a quasigroup with components occurring precisely once in each row and column and a multiplication operation that meets the requirements.
 
 ### 2.1.2 QEP 2
-At this stage, the problem is of order m quasigroups for which if $a*b=c*d$ and $a *312 b = c *312 d$ then $a=c$ and $b=d$.
+At this stage, the problem is of order $m$ quasigroups for which if $a*b=c*d$ and $a *312 b = c *312 d$ then $a=c$ and $b=d$.
 
 #### 2.1.2.1 Constraints
 In addition to the characteristics of _QEP 1_, additional limitations are introduced:
@@ -36,13 +36,13 @@ In addition to the characteristics of _QEP 1_, additional limitations are introd
 2. $a * 312 b = c * 312 d$ <!--If 'a * 312 b' equals 'c', then 'a * 312 b' must also equal 'c * 312 d'.-->
 
 #### 2.1.2.1 Objectives
-Similar to _QEP 1_, finding an order 'm' quasigroup that meets all the restrictions is the main goal of _QEP 2_. The quasigroup should satisfy the newly proposed constraints as well as the fundamental Latin square features (each element occurs once in each row and column). The goal is to produce a Latin square in which the multiplication operation complies with these requirements.
+Similar to _QEP 1_, finding an order $m$ quasigroup that meets all the restrictions is the main goal of _QEP 2_. The quasigroup should satisfy the newly proposed constraints as well as the fundamental Latin square features (each element occurs once in each row and column). The goal is to produce a Latin square in which the multiplication operation complies with these requirements.
 
 ### 2.1.3 QEP 3
-At this stage, the problem becomes more complex as it consists of non-trivial algebraic operations.  The problem is of order m quasigroups for which $(a*b)*(b*a) = a$.
+At this stage, the problem becomes more complex as it consists of non-trivial algebraic operations.  The problem is of order $m$ quasigroups for which $(a*b)*(b*a) = a$.
 
 #### 2.1.3.1 Constraints
-The main constraint is that for an order 'm' quasigroup, the result of the operation $(a * b) * (b * a)$ must equal 'a'.  To create a Latin square (quasigroup) that meets the algebraic constraint and the fundamental characteristics of a quasigroup is the fundamental challenge. 
+The main constraint is that for an order 'm' quasigroup, the result of the operation $(a * b) * (b * a)$ must equal $a$.  To create a Latin square (quasigroup) that meets the algebraic constraint and the fundamental characteristics of a quasigroup is the fundamental challenge. 
 
 #### 2.1.3.1 Objectives
 1. The given algebraic constraint must be met by the quasigroup: $(a * b) * (b * a) = a$.
