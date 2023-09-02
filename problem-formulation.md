@@ -55,7 +55,7 @@ Using algorithms that reduce computation is necessary when solving any problem. 
 In this assignment, I will solve _QEP 1_, _QEP2_, and _QEP 3_ with the following algorithms respectively:
 1. The Backtracking Algorithm
 2. The Forward Checking Algorithm
-3. Donald Knuth's Dancing Links algorithm with Algorithm X
+3. The Look Ahead Algorithm
 
 
 ### 2.2.1 Rationale of Algorithms
