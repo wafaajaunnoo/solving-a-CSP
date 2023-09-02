@@ -10,4 +10,6 @@ University of California, Berkeley](https://theory.stanford.edu/~aiken/publicati
 7. [Constraint Satisfaction Problems III, Factored Search - Washington University, CSE 473, Artificial Intelligence](https://courses.cs.washington.edu/courses/cse473/16au/slides-16au/08-CSP3.pdf)
 8. [Sally C. Brailsford, Chris N. Potts, Barbara M. Smith, Constraint satisfaction problems: Algorithms and applications, European Journal of Operational Research, Volume 119, Issue 3, 1999, Pages 557-581,ISSN 0377-2217](https://www.sciencedirect.com/science/article/pii/S0377221798003646)
 9. [Valued Constraint Satisfaction Problems: Hard and Easy Problems - Thomas Schiex, Héléne Fargier, Gérard Verfaillie, Pennsylvania State Univeristy](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=489eca86bf2dd3e30632059b8b0a658cae8da536)
+10. [Constraint Propagation - Roman Barták](https://ktiml.mff.cuni.cz/~bartak/constraints/propagation.html#:~:text=Algorithm%20AC%2D3%20for%20Forward%20Checking&text=Forward%20checking%20detects%20the%20inconsistency,overall%20amount%20of%20work%20done)
+11. 
 
