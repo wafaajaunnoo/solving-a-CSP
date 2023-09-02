@@ -27,6 +27,6 @@ print(f"Total runtime of the program is {end - begin}")
 ### 4.1.2 Solution Quality and Completeness
 In sum, the backtracking algorithm did not provide a solution at each instance of $m$.  Both the forward checking and look ahead algorithms provided solutions at all instances of $m$, but the solution provided by forward checking was more accurate.
 
-### 4.1.4 Scalability
+### 4.1.3 Scalability
 As the size of $m$ increases, all 3 algorithms cannot provide a solution.  The algorithms return `RecursionError: maximum recursion depth exceeded in comparison` or  a similar error.
 
