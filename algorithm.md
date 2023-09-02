@@ -13,7 +13,7 @@ I begin the algorithm by choosing one possible option.  If the problem is solved
 The algorithmic design for the backtracking algorithm can be defined as follows:
 
 <p align="center">
-<img width="573" alt="Algorithmic Design" src="/assets/algorithmic-design-QEP1.png">
+<img width="573" alt="Algorithmic Design" src="/assets/backtracking-algorithmic-design.png">
 </p>
 
 #### 3.1.1.2 Steps of Backtracking
@@ -41,7 +41,7 @@ I begin the algorithm by checking if all the conditions are met for the quasigro
 The algorithmic design for the Forward Checking algorithm can be defined as follows:
 
 <p align="center">
-<img width="573" alt="Algorithmic Design" src="/assets/algorithmic-design-QEP1.png">
+<img width="573" alt="Algorithmic Design" src="/assets/forward-checking-algorithmic-design.png">
 </p>
 
 #### 3.1.2.2 Steps of Forward Checking
@@ -67,7 +67,7 @@ I begin the algorithm by searching for the first empty cell in the quasigroup bo
 The algorithmic design for the Look Ahead Algorithm can be defined as follows:
 
 <p align="center">
-<img width="573" alt="Algorithmic Design" src="/assets/algorithmic-design-QEP1.png">
+<img width="573" alt="Algorithmic Design" src="/assets/lookahead-algorithmic-design.png">
 </p>
 
 #### 3.1.3.2 Steps of Look Ahead Algorithm
