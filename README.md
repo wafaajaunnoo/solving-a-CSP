@@ -6,10 +6,11 @@ This repository is divided into the following sections:
     * Quasigroup Existence Problem
     * Levels of complexity
 2. [Intuition of the Algorithms' Operation](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/algorithm.md)
+    * Overview
     * Pseudocodes
          * Backtracking 
          * Forward Checking
-         * Donald Knuth's Algorithm X with Dancing Links (? TBC)
+         * Look Ahead
     * Steps
 3. [Python Programs](https://github.com/wafaajaunnoo/solving-a-CSP/tree/main/Programs)
     * [QG1.py](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/Programs/QG1.py)
@@ -20,8 +21,8 @@ This repository is divided into the following sections:
        * Code Breakdown
 4. [Performance Comparison](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/performance-%20comparison.md)
 6. [Tests' results and analyses](https://github.com/wafaajaunnoo/solving-a-CSP/tree/main/Tests)
-7. [Sources and Further Reading]()
+7. [Sources and Further Reading](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/Ref.md)
 
-**Submission date:** 2<sup>nd</sup> September 2023
+**Submission date:** 2nd September 2023
 
 **Grade:** Not graded yet.
