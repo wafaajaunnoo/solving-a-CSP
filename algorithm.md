@@ -58,28 +58,28 @@ The algorithmic design for the Forward Checking algorithm can be defined as foll
 9. If recursion returned false, backtrack by resetting the cell's value to -1 and continuing the loop to check the next potential value.
 10. Else, return true.
 
-### 3.1.3 Donald Knuth's Dancing Links (DKDL) with Algorithm X
-Donald Knuth's Algorithm X is a recursive, non-deterministic, DFS backtracking method.  Since Algorithm X is mostly used to efficiently solve exact cover problems, I adjusted the algorithm to solve the _QEP 3_.  To do so, I define QEP 3 in terms of an exact cover problem and implement the algorithm.
+### 3.1.3 Look Ahead Algorithm
+The Look Ahead Algorithm is a backtracking search technique that can be used to locate a valid quasigroup that satisfies ann conditions for order $m$.  The algorithm explores potential values for every cell in the quasigroup matrix and determines whether they adhere to the constraints or not.  If a value is suitable for a cell, the algorithm moves to the next empty cell.  Else, it backtracks and attempts to assign a new value.
 
-I begin the algorithm by defining classes that will represent nodes in the data structure.  I create a header node and initialize the columns with pointers.  I add the rows and use a recursive function that explores all potential solutions while maximising efficiency.  I then prompt the algorithm to print the solution. 
+I begin the algorithm by searching for the first empty cell in the quasigroup board.  Cells are given values starting at 0 and increasing up to m-1.  Before moving on to the next vacant cell, the algorithm determines if the value that was assigned fulfils the criteria.  It goes back to the previous cell and attempts a different value if there isn't a valid value entered.  The procedure is repeated until a comprehensive answer is discovered, at which point the answer is added to the solution matrix.  Repeating steps 3 through 6 allows the programme to locate every potential outcome.
 
-#### 3.1.3.1 Pseudocode of DKDL with Algorithm X
-The algorithmic design for Donald Knuth's Dancing links with Algorithm X can be defined as follows:
+#### 3.1.3.1 Pseudocode of Look Ahead Algorithm
+The algorithmic design for the Look Ahead Algorithm can be defined as follows:
 
 <p align="center">
 <img width="573" alt="Algorithmic Design" src="/assets/algorithmic-design-QEP1.png">
 </p>
 
-#### 3.1.3.2 Steps of DKDL with Algorithm X
-1. Generate the exact cover matrix according to constraints, by creating rows for each combination.
-2. Define 2 classes to represent the nodes in the Dancing Links data structure and to manage the algorithm.
-3. Establish a header node and initialise columns using left and right pointers.
-4. Create a function to add a row to the exact cover matrix.
-5. Create a search function which will iteratively explore all potential solutions.
-6. Choose a column to cover, search for each row that satisfies the constraints, and backtrack when necessary.
-7. Create a method that will search for the column with the fewest 1s to maximise efficiency.
-8. Initialize the search for solutions.
-9. Print the solution in a readable format. 
+#### 3.1.3.2 Steps of Look Ahead Algorithm
+1. Initialize the quasigroup board with empty cells as an $m x m$ matrix.
+2. Choose an empty cell and iterate through all potential solutions from 0 to $m - 1$.
+3. Assign a value to the cell and check for the next empty cell.
+4. For each assigned value, check if the solution satisfies all conditions.
+5. Apply recursion to move to the next empty cell while assigning values and verifying that they satisfy all conditions.
+6. If no value can be assigned, backtrack and attempt to assign a new value.
+7. If a solution is found, store it in the solution matrix.
+8. Repeat until all potential solutions are found.
+9. When the process terminates, print the solution if a solution is found, else indicate that no solution is found.
 
 [Read about the Performance Comparison.](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/performance-%20comparison.md)
 
