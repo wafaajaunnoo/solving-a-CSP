@@ -10,7 +10,7 @@ I start this section by defining a Quasigroup Existence Problem [hereafter: QEP]
 
 1. The Backtracking Algorithm
 2. The Forward Checking Algorithm
-3. Donald Knuth's Dancing Links algorithm with Algorithm X
+3. The Look Ahead Algorithm 
 
 ## 2.1 Quasigroup Existence Problem
 A Latin square of dimension $m$ is an order $m$ quasigroup. This is a multiplication table using the notation $m \times m$ where each element appears exactly once in each row and column. A set and a binary multiplication operator $\times$ defined over this set can both be used to specify a quasigroup. The existence or non-existence of quasigroups with extra attributes and a specific size is determined by quasigroup existence issues. Given we have 2 relations, $\times 321$ and $\times 312$ by $a \times 321 b = c$ iff $c \times b=a$ and $a \times 312 b = c$ iff $b \times c=a$, we can formulate 3 QEPs with different levels of complexities:
