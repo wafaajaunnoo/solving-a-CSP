@@ -63,7 +63,7 @@ In this assignment, I will solve _QEP 1_, _QEP2_, and _QEP 3_ with the following
 2. **_QEP 2_**: This problem adds more limitations, but propagates them in a very simple way.  A more effective way to rule out possibilities is through forward checking.  This algorithm aids in effectively ruling out options while guaranteeing that the specified constraints are met.  It lowers the search space and propagates constraints forward to rapidly spot any inconsistencies.
 3. **_QEP 3_**: _QEP 3_ is more complex than _QEP 1_ and _QEP 2_ because non-trivial algebraic procedures are involved. The Dancing Links method may be modified to effectively handle these algebraic limitations and is particularly helpful for addressing exact cover issues.
 
-The varied levels of difficulty of the problem descriptions are matched with each algorithm proposal. Backtracking is appropriate for less complicated problems, Forward Checking adds some complexity but not too much, and Dancing Links with Algorithm X is appropriate for challenging problems with deep algebraic restrictions.
+The varied levels of difficulty of the problem descriptions are matched with each algorithm proposal. Backtracking is appropriate for less complicated problems, Forward Checking adds some complexity but not too much, and Look Ahead Algorithm is appropriate for challenging problems with deep algebraic restrictions.
 
 
 [Read about the algorithmic design for this QEP.](https://github.com/wafaajaunnoo/solving-a-CSP/blob/main/algorithm.md)
